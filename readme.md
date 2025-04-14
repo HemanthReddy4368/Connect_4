@@ -5,33 +5,6 @@ This repository contains the code for a Connect 4 game implemented in Python usi
 * **Minimax with Alpha-Beta Pruning:** A classic search algorithm for two-player zero-sum games that efficiently explores the game tree to find the optimal move.
 * **Q-Learning:** A reinforcement learning algorithm that will allow an AI agent to learn an optimal strategy through self-play and experience.
 
-## Project Structure
-
-The repository will likely be structured as follows:
-
-connect4_ai/
-├── README.md
-├── connect4/
-│   ├── init.py
-│   ├── game.py
-│   ├── constants.py
-│   ├── utils.py
-│   └── ...
-├── agents/
-│   ├── init.py
-│   ├── human_agent.py
-│   ├── random_agent.py
-│   ├── minimax_agent.py
-│   ├── qlearning_agent.py
-│   └── ...
-├── experiments/
-│   ├── train_qlearning.py
-│   ├── evaluate_agents.py
-│   └── ...
-├── requirements.txt
-└── ...
-
-
 ## Technologies Used
 
 * **Python:** The primary programming language.
@@ -41,7 +14,7 @@ connect4_ai/
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/HemanthReddy4368/Connect_4.git
     cd connect4_ai
     ```
 
