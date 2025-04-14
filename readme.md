@@ -10,14 +10,14 @@ This repository contains the code for a Connect 4 game implemented in Python usi
 The repository will likely be structured as follows:
 
 connect4_ai/
-├── README.md      
-├── connect4/ 
+├── README.md
+├── connect4/
 │   ├── init.py
-│   ├── game.py 
-│   ├── constants.py  
+│   ├── game.py
+│   ├── constants.py
 │   ├── utils.py
 │   └── ...
-├── agents/  
+├── agents/
 │   ├── init.py
 │   ├── human_agent.py
 │   ├── random_agent.py
@@ -28,7 +28,7 @@ connect4_ai/
 │   ├── train_qlearning.py
 │   ├── evaluate_agents.py
 │   └── ...
-├── requirements.txt 
+├── requirements.txt
 └── ...
 
 
