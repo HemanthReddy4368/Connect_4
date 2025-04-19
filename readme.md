@@ -60,16 +60,6 @@ Our development will follow these steps:
     * Scripts to play different agents against each other.
     * Metrics to evaluate the performance of the AI agents.
 
-## Contributing
-
-Contributions to this project are welcome! If you have ideas for improvements, bug fixes, or new features, please feel free to:
-
-1.  Fork the repository.
-2.  Create a new branch for your changes.
-3.  Make your changes and commit them.
-4.  Push your changes to your fork.
-5.  Submit a pull request.
-
 ## Contact
 
 [Intro to AI Group 4]
