@@ -1,0 +1,14 @@
+BACKGROUND = (30, 30, 60)
+BOARD_COLOR = (50, 120, 200)
+GRID_COLOR = (255, 255, 255)
+PLAYER1_COLOR = (255, 99, 71)
+PLAYER2_COLOR = (255, 215, 0)
+EMPTY_COLOR = (220, 220, 220)
+HIGHLIGHT_COLOR = (0, 255, 127) 
+
+SSize = 100
+RADIUS = int(SSize/2 - 8)
+
+
+WINDOW_TITLE = "Connect 4 - Minimax vs Default agent"
+FPS = 60

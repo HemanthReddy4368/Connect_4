@@ -1,14 +1,14 @@
 # Connect 4 AI
 
-This repository contains the code for a Connect 4 game implemented in Python using the Pygame library. We will be developing intelligent agents to play this game by implementing the following Artificial Intelligence algorithms:
+THis Repository has the code for connect 4 game which is implemented in python using pygame library. In this project we will be developing AI agents that will play the game by implementing the below agents:
 
-* **Minimax with Alpha-Beta Pruning:** A classic search algorithm for two-player zero-sum games that efficiently explores the game tree to find the optimal move.
-* **Q-Learning:** A reinforcement learning algorithm that will allow an AI agent to learn an optimal strategy through self-play and experience.
+* **Minimax with Alpha-Beta Pruning:** It is A classic search algorithm which is best for two player games where it explores efficiently the game tree to find the best optimal move.
+* **Q-Learning:** This is a reinforcement learning algorithm that will allow the agent to learn and experience.
 
 ## Technologies Used
 
-* **Python:** The primary programming language.
-* **Pygame:** A cross-platform set of Python modules designed for writing video games.
+* **Python:** We used pyhton as the main language in this project.
+* **Pygame:**  For game design we are using the pygame library.
 
 ## Getting Started
 
@@ -23,11 +23,10 @@ This repository contains the code for a Connect 4 game implemented in Python usi
     pip install -r requirements.txt
     ```
 
-3.  **Run the game (basic human vs. human):**
+3.  **Run the game**
     ```bash
-    python connect4/game.py
+    python main.py
     ```
-    (You might need to adjust the entry point depending on the `game.py` structure)
 
 ## Implementation Roadmap
 
