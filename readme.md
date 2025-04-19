@@ -15,7 +15,6 @@ THis Repository has the code for connect 4 game which is implemented in python u
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/HemanthReddy4368/Connect_4.git
-    cd connect4_ai
     ```
 
 2.  **Install dependencies:**
