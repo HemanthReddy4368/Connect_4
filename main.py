@@ -53,7 +53,7 @@ def display_menu():
 def main():
     while True:
         choice = display_menu()
-        n =2
+        n =10
         if choice == 1:
             for i in range(n):
                 game = Connect4MainGame(use_q_learning=False)
