@@ -51,8 +51,7 @@ Our development will follow these steps:
     * Developing a training loop for the Q-learning agent.
 
 5.  **Create different AI agents:**
-    * Human player agent.
-    * Random move agent (for baseline comparison).
+    * Random move agent (Human Like) (for baseline comparison).
     * Minimax/Alpha-Beta agent.
     * Q-learning agent.
 
