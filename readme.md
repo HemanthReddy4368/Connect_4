@@ -1,28 +1,33 @@
 # Connect 4 AI
 
-THis Repository has the code for connect 4 game which is implemented in python using pygame library. In this project we will be developing AI agents that will play the game by implementing the below agents:
+[![How to Create a Connect Four AI (YouTube)](https://img.youtube.com/vi/Ut3PJblmce8/0.jpg)](https://www.youtube.com/watch?v=Ut3PJblmce8)
 
-* **Minimax with Alpha-Beta Pruning:** It is A classic search algorithm which is best for two player games where it explores efficiently the game tree to find the best optimal move.
-* **Q-Learning:** This is a reinforcement learning algorithm that will allow the agent to learn and experience.
+This repository contains the code for a Connect 4 game implemented in Python using the Pygame library. In this project, we develop AI agents to play the game by implementing the following agents:
+
+*   **Minimax with Alpha-Beta Pruning:** A classic search algorithm ideal for two-player games, efficiently exploring the game tree to find the optimal move.
+*   **Q-Learning:** A reinforcement learning algorithm that enables the agent to learn through experience.
 
 ## Technologies Used
 
-* **Python:** We used pyhton as the main language in this project.
-* **Pygame:**  For game design we are using the pygame library.
+*   **Python:** The main programming language for this project.
+*   **Pygame:** Used for game design and graphical interface.
 
 ## Getting Started
 
 1.  **Clone the repository:**
+
     ```bash
     git clone https://github.com/HemanthReddy4368/Connect_4.git
     ```
 
 2.  **Install dependencies:**
+
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  **Run the game**
+3.  **Run the game:**
+
     ```bash
     python main.py
     ```
@@ -32,32 +37,38 @@ THis Repository has the code for connect 4 game which is implemented in python u
 Our development will follow these steps:
 
 1.  **Implement the core Connect 4 game logic:**
-    * Creating the game board.
-    * Implementing functions for dropping pieces, checking for valid moves, and detecting winning conditions.
-    * Handling game state and turns.
+
+    *   Create the game board.
+    *   Implement functions for dropping pieces, checking for valid moves, and detecting winning conditions.
+    *   Handle game state and turns.
 
 2.  **Integrate Pygame for a graphical user interface:**
-    * Visualizing the game board and pieces.
-    * Handling user input (mouse clicks for dropping pieces).
+
+    *   Visualize the game board and pieces.
+    *   Handle user input (mouse clicks for dropping pieces).
 
 3.  **Implement the Minimax algorithm with Alpha-Beta Pruning:**
-    * Developing a function to evaluate the game state.
-    * Implementing the recursive Minimax algorithm with alpha-beta pruning to optimize search.
+
+    *   Develop a function to evaluate the game state.
+    *   Implement the recursive Minimax algorithm with alpha-beta pruning to optimize search.
 
 4.  **Implement the Q-Learning algorithm:**
-    * Defining the state space and action space for the Connect 4 game.
-    * Creating a Q-table to store action-value pairs.
-    * Implementing the Q-learning update rule.
-    * Developing a training loop for the Q-learning agent.
+
+    *   Define the state space and action space for Connect 4.
+    *   Create a Q-table to store action-value pairs.
+    *   Implement the Q-learning update rule.
+    *   Develop a training loop for the Q-learning agent.
 
 5.  **Create different AI agents:**
-    * Random move agent (Human Like) (for baseline comparison).
-    * Minimax/Alpha-Beta agent.
-    * Q-learning agent.
+
+    *   Random move agent (human-like, for baseline comparison).
+    *   Minimax/Alpha-Beta agent.
+    *   Q-learning agent.
 
 6.  **Develop evaluation and testing mechanisms:**
-    * Scripts to play different agents against each other.
-    * Metrics to evaluate the performance of the AI agents.
+
+    *   Scripts to play different agents against each other.
+    *   Metrics to evaluate the performance of the AI agents.
 
 ## Contact
 
