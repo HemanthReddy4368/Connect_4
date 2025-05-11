@@ -11,6 +11,33 @@ This repository contains the code for a Connect 4 game implemented in Python usi
 
 * Link To the explanation video: https://www.youtube.com/watch?v=Ut3PJblmce8
 
+---
+
+## Game Modes
+
+When you run the game, you can select from the following modes:
+
+1. **Minimax vs Normal Player**
+2. **Minimax vs Q-Learning**
+3. **Q-Learning vs Normal Player**
+4. **Minimax vs Human** (play against the AI yourself!)
+5. **Quit**
+
+Use the arrow keys to navigate and Enter to select.
+
+---
+
+---
+
+## Resources
+
+- **Download the Q-table:**  
+  [Google Drive Link](https://drive.google.com/file/d/1_EHU972TG3tZV8eLM073zStsG0wQxw_Q/view?usp=sharing)
+- **Explanation Video:**  
+  [YouTube: How to Create a Connect Four AI](https://www.youtube.com/watch?v=Ut3PJblmce8)
+
+---
+
 ## Technologies Used
 
 *   **Python:** The main programming language for this project.
@@ -68,6 +95,7 @@ Our development will follow these steps:
     *   Random move agent (human-like, for baseline comparison).
     *   Minimax/Alpha-Beta agent.
     *   Q-learning agent.
+    4. **Minimax vs Human** (play against the AI yourself!)
 
 6.  **Develop evaluation and testing mechanisms:**
 
@@ -79,13 +107,13 @@ Based on our experiments, The MiniMax Agent outperforms both Q-learning and rand
 
 The Q-learning agent, while showing promising learning behavior, requires extensive training to achieve competitive performance. The current implementation was trained for 300,000 episodes, which allowed it to learn basic game strategies and avoid obvious pitfalls. However, the complexity of Connect 4's state space means that even after this many episodes, the Q-table may not fully represent optimal strategies for all possible game scenarios.
 
-To further enhance the Q-learning agent, several improvements can be considered:
 
-* Extended Training: Increasing the number of training episodes to several million could allow the agent to explore a more comprehensive set of game states and refine its Q-table values.
+- **Improvements**:
+    - **Extended Training**: More episodes for better Q-table coverage.
+    - **Deep Q-Learning**: Use neural networks (DQN) to generalize and improve performance in complex states.
 
-* Deep Q-Learning: Implementing a deep Q-network (DQN) can address the limitations of the Q-table approach. DQNs use neural networks to approximate the Q-function, allowing the agent to generalize from observed states to unseen states. This can significantly improve the agent's performance in complex environments like Connect 4.
-
-In summary, while the Minimax agent provides a strong baseline for Connect 4 AI, the Q-learning agent offers a pathway for continuous learning and improvement. Future work will focus on implementing deep Q-learning techniques to create a more adaptive and competitive AI for Connect
+**In summary:**  
+Minimax provides a strong baseline, while Q-learning offers a path for continuous improvement. Future work will focus on deep Q-learning for a more adaptive AI.
 
 ## Contact
 
