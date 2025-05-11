@@ -34,7 +34,7 @@ Use the arrow keys to navigate and Enter to select.
 - **Download the Q-table:**  
   [Google Drive Link](https://drive.google.com/file/d/1_EHU972TG3tZV8eLM073zStsG0wQxw_Q/view?usp=sharing)
 - **Explanation Video:**  
-  [YouTube: How to Create a Connect Four AI](https://www.youtube.com/watch?v=Ut3PJblmce8)
+  [YouTube: Explanation For Connect 4 Ai Video](https://www.youtube.com/watch?v=Ut3PJblmce8)
 
 ---
 
