@@ -7,6 +7,10 @@ This repository contains the code for a Connect 4 game implemented in Python usi
 *   **Minimax with Alpha-Beta Pruning:** A classic search algorithm ideal for two-player games, efficiently exploring the game tree to find the optimal move.
 *   **Q-Learning:** A reinforcement learning algorithm that enables the agent to learn through experience.
 
+* Link to Download The q-table and use it in the project: https://drive.google.com/file/d/1_EHU972TG3tZV8eLM073zStsG0wQxw_Q/view?usp=sharing
+
+* Link To the explanation video: https://www.youtube.com/watch?v=Ut3PJblmce8
+
 ## Technologies Used
 
 *   **Python:** The main programming language for this project.
