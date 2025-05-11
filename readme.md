@@ -74,6 +74,19 @@ Our development will follow these steps:
     *   Scripts to play different agents against each other.
     *   Metrics to evaluate the performance of the AI agents.
 
+## Conclusion
+Based on our experiments, The MiniMax Agent outperforms both Q-learning and random move (human like agent). This is mainly because Minimax with alpha beta pruning explores the games's state space strategically. It is evaluating potential moves by looking at several steps ahead and choosing the best path which maximizes the chances of winning and also minimizing the opponents chances.
+
+The Q-learning agent, while showing promising learning behavior, requires extensive training to achieve competitive performance. The current implementation was trained for 300,000 episodes, which allowed it to learn basic game strategies and avoid obvious pitfalls. However, the complexity of Connect 4's state space means that even after this many episodes, the Q-table may not fully represent optimal strategies for all possible game scenarios.
+
+To further enhance the Q-learning agent, several improvements can be considered:
+
+* Extended Training: Increasing the number of training episodes to several million could allow the agent to explore a more comprehensive set of game states and refine its Q-table values.
+
+* Deep Q-Learning: Implementing a deep Q-network (DQN) can address the limitations of the Q-table approach. DQNs use neural networks to approximate the Q-function, allowing the agent to generalize from observed states to unseen states. This can significantly improve the agent's performance in complex environments like Connect 4.
+
+In summary, while the Minimax agent provides a strong baseline for Connect 4 AI, the Q-learning agent offers a pathway for continuous learning and improvement. Future work will focus on implementing deep Q-learning techniques to create a more adaptive and competitive AI for Connect
+
 ## Contact
 
 [Intro to AI Group 4]
