@@ -1,13 +1,14 @@
+from Connect4MinimaxVsHuman import Connect4_MinimaxVsHuman
 from connect import Connect4MainGame
 from connect_q_vs_normal import Connect4QvsNormal
 import pygame
 
 def display_menu():
     pygame.init()
-    scr = pygame.display.set_mode((700, 400))
+    scr = pygame.display.set_mode((1600, 900))
     pygame.display.set_caption("Connect 4 - Game Mode Selection")
-    fon = pygame.font.SysFont("arial", 32)
-    title_font = pygame.font.SysFont("arial", 48, bold=True)
+    fon = pygame.font.SysFont("arial", 72)
+    title_font = pygame.font.SysFont("arial", 120, bold=True)
 
     BG_COLOR = (30, 30, 60)
     TEXT_COLOR = (255, 255, 255)
@@ -17,7 +18,8 @@ def display_menu():
         "1. Minimax vs Normal Player",
         "2. Minimax vs Q-Learning",
         "3. Q-Learning vs Normal Player",
-        "4. Quit"
+        "4. Minimax vs Human",
+        "5. Quit"
     ]
 
     selected = 0
@@ -25,13 +27,13 @@ def display_menu():
     while True:
         scr.fill(BG_COLOR)
 
-        t = title_font.render("Select one of the Connect 4 Game Modes", True, HLT_CLR)
-        scr.blit(t, (700//2 - t.get_width()//2, 50))
+        t = title_font.render("Select a Connect 4 Game Mode", True, HLT_CLR)
+        scr.blit(t, (1600//2 - t.get_width()//2, 100))
 
         for i, option in enumerate(options):
             color = HLT_CLR if i == selected else TEXT_COLOR
             text = fon.render(option, True, color)
-            scr.blit(text, (700//2 - text.get_width()//2, 150 + i * 60))
+            scr.blit(text, (1600//2 - text.get_width()//2, 350 + i * 100))
 
         pygame.display.flip()
 
@@ -53,7 +55,7 @@ def display_menu():
 def main():
     while True:
         choice = display_menu()
-        n =10
+        n = 10
         if choice == 1:
             for i in range(n):
                 game = Connect4MainGame(use_q_learning=False)
@@ -66,7 +68,10 @@ def main():
             for i in range(n):
                 game = Connect4QvsNormal()
                 game.game_play()
-        elif choice == 4 or choice is None:
+        elif choice == 4:
+            game = Connect4_MinimaxVsHuman()
+            game.game_play()
+        elif choice == 5 or choice is None:
             print("Thanks for playing!")
             break
 
